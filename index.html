@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bruno Galvão - Desenvolvedor Web</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+     
+      color: #0e0d0d;
+      overflow-x: hidden;
+      background-image: url(imagem/v627-aew-04-technologybackground.jpg);
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      animation: fadeIn 2s ease;
+    }
+    #nome {
+      color: aliceblue;
+      margin-top: 40px;
+    }
+
+    .foto-perfil {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid hsl(103, 100%, 50%);
+      object-fit: cover;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 10px 0;
+    }
+
+    p.subtitulo {
+      font-size: 1.2em;
+      color: lab(97.36% -1.18 1.19);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: lab(85.99% -80.6 81.4);
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 1s ease;
+    }
+
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      color: oklab(16.337% -0.01075 0.03035);
+    }
+
+    .projeto {
+      background: #58f70ef3;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      color: hsl(60, 4%, 5%);
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 5px 15px #1a4904f3
+      transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: hwb(0 97% 3%);
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <img src="imagem/Imagem do WhatsApp de 2025-06-24 à(s) 12.13.16_38ae9b8f.jpg" alt="Foto de Bruno Galvão" class="foto-perfil">
+  <h1 id="nome">Bruno Galvão</h1>
+  <p class="subtitulo">Desenvolvedor Web • Criação de Sites & Landing Pages</p>
+  <div class="social-links">
+    <a href="https://www.instagram.com/seu_usuario" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/seu_usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/seu_usuario" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+  <a class="whatsapp-button" href="https://wa.me/5521978308046?text=Ol%C3%A1%20seja%20muito%20bem-vindo%2C%20como%20posso%20te%20ajudar%3F
+" target="_blank">Fale comigo no WhatsApp</a>
+</header>
+
+<section id="sobre">
+  <h2>Sobre Mim</h2>
+  <p>Olá! Eu sou o <strong>Bruno Galvão</strong>, tenho 39 anos e sou formado em <strong>Engenharia de Software</strong>. Recém-formado, estou muito motivado para colocar meus conhecimentos em prática no mundo do desenvolvimento web.</p>
+
+  <p>Tenho experiência com as principais tecnologias para criação de sites e aplicações web como <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>Python</strong>. Também utilizo o <strong>GitHub</strong> para versionamento de código e trabalho colaborativo.</p>
+
+  <p>Atualmente, foco na criação de <strong>sites responsivos</strong> e <strong>landing pages</strong> modernas, com atenção ao desempenho, acessibilidade e um design visual atrativo. Estou sempre em busca de novos desafios e oportunidades para continuar aprendendo e crescendo como desenvolvedor.</p>
+
+  <p>Se quiser conversar sobre um projeto ou parceria, será um prazer!</p>
+</section>
+</section>
+
+<section id="servicos">
+  <h2>O que eu faço</h2>
+  <ul>
+     <li>✅ Criação de <strong>sites responsivos</strong> com design moderno</li>
+    <li>✅ Desenvolvimento de <strong>landing pages</strong> otimizadas para conversão</li>
+    <li>✅ <strong>Customização de layouts</strong> com HTML, CSS e JavaScript</li>
+    <li>✅ Integração de funcionalidades com <strong>Python</strong> quando necessário</li>
+    <li>✅ Uso de <strong>GitHub</strong> para versionamento de código e colaboração</li>
+    <li>✅ Melhoria de performance e experiência do utilizador</li>
+  </ul>
+</section>
+
+<section id="projetos">
+  <h2>Projetos Recentes</h2>
+  <div class="projeto">
+    <h3>Landing Page de Agência</h3>
+    <p>Site leve e rápido com animações e formulário de contacto.</p>
+  </div>
+  <div class="projeto">
+    <h3>Portfólio Pessoal</h3>
+    <p>Site responsivo com foco em performance e design.</p>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Se quiser um site ou landing page profissional, entre em contacto pelo WhatsApp ou pelas minhas redes sociais.</p>
+</section>
+
+<footer>
+  © 2025 Bruno Galvão - Desenvolvedor Web <a href="" style="color: #FFD700;"></a>
+</footer>
+
+<script>
+  const sections = document.querySelectorAll('section');
+  window.addEventListener('scroll', () => {
+    sections.forEach(sec => {
+      const top = window.scrollY;
+      const offset = sec.offsetTop - 300;
+      const height = sec.offsetHeight;
+      if(top >= offset && top < offset + height) {
+        sec.classList.add('visible');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
