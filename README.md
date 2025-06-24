@@ -17,7 +17,7 @@ Este projeto foi criado para apresentar as minhas principais habilidades, projet
 - Link direto para me chamar no WhatsApp
 
 ## 📎 Acesse o portfólio
-👉 [brunogalvao.dev](https://teulink.com/portfolio) *(substituir pelo link real)*
+👉 [brunogalvao.dev](https://brunocroft86.github.io/Meu-portif-lio/) *(substituir pelo link real)*
 
 ---
 
